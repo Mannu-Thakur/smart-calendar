@@ -25,9 +25,8 @@ It allows users to view monthly calendars, select dates, and add/delete notes wi
 ---
 
 ## 🖼️ Preview
- <img width="1438" height="1053" alt="image" src="https://github.com/user-attachments/assets/b7d93692-4610-4483-9705-7e851c528ce4" />
+<img width="1385" height="1057" alt="image" src="https://github.com/user-attachments/assets/5b24a3a6-c817-46b3-8b4b-2b4aa6c4825e" />
 
- <img width="1439" height="1033" alt="Screenshot 2026-04-08 101812" src="https://github.com/user-attachments/assets/90da5b0e-3d7a-4788-a356-34feb981043c" />
 
 
 ---

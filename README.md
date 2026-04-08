@@ -1,16 +1,101 @@
-# React + Vite
+# 📅 Smart Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive calendar application built using **React + Tailwind CSS**.  
+It allows users to view monthly calendars, select dates, and add/delete notes with a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📆 Monthly calendar view
+- 📝 Add and delete notes for any date
+- 🔵 Selected date highlighting
+- 📍 Today's date indicator
+- 🎨 Weekend highlighting (Sat & Sun in blue)
+- 🖼️ Hero section with dynamic month display
+- ⚡ Smooth UI with Tailwind CSS
+- 📱 Responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ <img width="1439" height="1033" alt="Screenshot 2026-04-08 101812" src="https://github.com/user-attachments/assets/4efcd984-c920-4a18-ad33-3cecbae470c1" />
+
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```
+smart-calendar/
+│── src/
+│   ├── components/
+│   │   ├── CalendarGrid.jsx
+│   │   ├── DayCell.jsx
+│   │   ├── Header.jsx
+│   │   └── NotesPanel.jsx
+│   ├── hooks/
+│   │   └── useCalendar.js
+│   ├── utils/
+│   │   └── dateUtils.js
+│   ├── App.jsx
+│   └── main.jsx
+│
+│── public/
+│── package.json
+│── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/Mannu-Thakur/smart-calendar.git
+cd smart-calendar
+npm install
+npm run dev
+```
+
+---
+
+## 🧠 How It Works
+
+- Calendar grid is generated dynamically based on selected month
+- Previous & next month dates are shown for proper alignment
+- Notes are stored per date using React state
+- Each date cell visually reflects:
+  - Current date
+  - Selected date
+  - Notes presence (red dot)
+
+---
+
+## ✨ Future Improvements
+
+- Dark mode 🌙  
+- Backend integration (persistent notes) ☁️  
+- Date range selection 📅  
+- Animations & transitions 🎯  
+
+---
+
+## 👨‍💻 Author
+
+**Mannu Thakur**  
+https://github.com/Mannu-Thakur
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!

@@ -68,6 +68,9 @@ npm run dev
 
 ---
 
+## LIVE DEMO
+https://magenta-cobbler-a11e67.netlify.app/
+
 ## 🧠 How It Works
 
 - Calendar grid is generated dynamically based on selected month  

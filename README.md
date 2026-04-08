@@ -57,6 +57,9 @@ smart-calendar/
 
 ---
 
+## LIVE DEMO {https://gentle-cocada-47c994.netlify.app/}
+
+
 ## ⚙️ Installation & Setup
 
 ```bash

@@ -14,13 +14,7 @@ It allows users to view monthly calendars, select dates, and add/delete notes wi
 - 🎨 Weekend highlighting (Sat & Sun in blue)  
 - 🖼️ Hero section with dynamic month display  
 - ⚡ Smooth UI with Tailwind CSS  
-- 📱 Responsive layout  
-
----
-
-## 🌐 Live Demo
-
-👉 https://gentle-cocada-47c994.netlify.app/
+- 📱 Responsive layout  with festival ✨️ 
 
 ---
 

@@ -98,8 +98,87 @@ https://magenta-cobbler-a11e67.netlify.app/
 https://github.com/Mannu-Thakur
 
 ---
+## 🐳 Docker
 
-<img width="953" height="506" alt="image" src="https://github.com/user-attachments/assets/917e2394-b266-4242-a897-321135521f95" />
+This project is containerized and available on Docker Hub.
+
+### Pull the Image
+
+```bash
+docker pull mannukt/smart-calendar:latest
+```
+
+### Run the Container
+
+```bash
+docker run -d -p 8080:80 --name smart-calendar-app mannukt/smart-calendar:latest
+```
+
+### Access the Application
+
+Open your browser and visit:
+
+```text
+http://localhost:8080
+```
+
+### Stop the Container
+
+```bash
+docker stop smart-calendar-app
+```
+
+### Remove the Container
+
+```bash
+docker rm -f smart-calendar-app
+```
+
+---
+
+### Build Locally
+
+Clone the repository and build the image yourself:
+
+```bash
+git clone https://github.com/Mannu-Thakur/smart-calendar.git
+cd smart-calendar
+
+docker build -t smart-calendar .
+docker run -d -p 8080:80 --name smart-calendar-app smart-calendar
+```
+
+---
+
+### Docker Hub
+
+Image available at:
+
+`mannukt/smart-calendar`
+
+Pull directly:
+
+```bash
+docker pull mannukt/smart-calendar:latest
+```
+
+### Docker Architecture
+
+```text
+React + Vite
+      │
+      ▼
+Production Build (dist/)
+      │
+      ▼
+Docker Image
+      │
+      ▼
+Nginx
+      │
+      ▼
+Browser
+```
 
 ## ⭐ Support
 
